@@ -39,4 +39,12 @@ def getRightChild(root):
 
 r = BinaryTree(3)
 
-inserLeft(r,4)
+print(inserLeft(r,4))
+print(inserLeft(r,6))
+print(inserRight(r,7))
+print(inserRight(r,8))
+
+l = getLeftChild(r)
+print(l)
+setRootVal(r,9)
+print(r)
